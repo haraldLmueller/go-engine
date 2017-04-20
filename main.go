@@ -6,9 +6,9 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/walesey/go-engine/controller"
-	"github.com/walesey/go-engine/editor"
-	"github.com/walesey/go-engine/glfwController"
+	"github.com/haraldLmueller/go-engine/controller"
+	"github.com/haraldLmueller/go-engine/editor"
+	"github.com/haraldLmueller/go-engine/glfwController"
 )
 
 func init() {
@@ -17,7 +17,7 @@ func init() {
 	//Set default glfw controller
 	controller.SetDefaultConstructor(glfwController.NewActionMap)
 	// set working dir to access assets
-	p, _ := build.Import("github.com/walesey/go-engine", "", build.FindOnly)
+	p, _ := build.Import("github.com/haraldLmueller/go-engine", "", build.FindOnly)
 	os.Chdir(p.Dir)
 }
 

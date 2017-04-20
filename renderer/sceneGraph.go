@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-gl/mathgl/mgl32"
 	"github.com/go-gl/mathgl/mgl32/matstack"
-	"github.com/walesey/go-engine/util"
+	"github.com/haraldLmueller/go-engine/util"
 )
 
 type SceneGraph struct {

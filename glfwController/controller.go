@@ -2,7 +2,7 @@ package glfwController
 
 import (
 	"github.com/go-gl/glfw/v3.1/glfw"
-	"github.com/walesey/go-engine/controller"
+	"github.com/haraldLmueller/go-engine/controller"
 )
 
 type Controller interface {

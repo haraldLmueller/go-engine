@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-gl/gl/v3.2-core/gl"
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/haraldLmueller/go-engine/renderer"
 )
 
 func newProgram(shaders ...uint32) (uint32, error) {

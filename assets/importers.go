@@ -11,7 +11,7 @@ import (
 	"io/ioutil"
 
 	"github.com/disintegration/imaging"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/haraldLmueller/go-engine/renderer"
 )
 
 func ImportImage(file string) (image.Image, error) {

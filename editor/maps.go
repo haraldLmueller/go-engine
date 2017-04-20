@@ -8,10 +8,10 @@ import (
 	"os"
 
 	"github.com/Invictus321/invictus321-countdown"
-	"github.com/walesey/go-engine/assets"
-	"github.com/walesey/go-engine/editor/models"
-	"github.com/walesey/go-engine/engine"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/haraldLmueller/go-engine/assets"
+	"github.com/haraldLmueller/go-engine/editor/models"
+	"github.com/haraldLmueller/go-engine/engine"
+	"github.com/haraldLmueller/go-engine/renderer"
 )
 
 type MapLoadUpdate struct {

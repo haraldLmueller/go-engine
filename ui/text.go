@@ -11,9 +11,9 @@ import (
 
 	"github.com/disintegration/imaging"
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/libs/freetype"
-	"github.com/walesey/go-engine/libs/freetype/truetype"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/haraldLmueller/go-engine/libs/freetype"
+	"github.com/haraldLmueller/go-engine/libs/freetype/truetype"
+	"github.com/haraldLmueller/go-engine/renderer"
 
 	"golang.org/x/image/font"
 )

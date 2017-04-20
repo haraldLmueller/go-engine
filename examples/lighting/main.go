@@ -10,15 +10,15 @@ import (
 
 	"github.com/disintegration/imaging"
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/actor"
-	"github.com/walesey/go-engine/assets"
-	"github.com/walesey/go-engine/controller"
-	"github.com/walesey/go-engine/effects"
-	"github.com/walesey/go-engine/engine"
-	"github.com/walesey/go-engine/glfwController"
-	"github.com/walesey/go-engine/opengl"
-	"github.com/walesey/go-engine/renderer"
-	"github.com/walesey/go-engine/ui"
+	"github.com/haraldLmueller/go-engine/actor"
+	"github.com/haraldLmueller/go-engine/assets"
+	"github.com/haraldLmueller/go-engine/controller"
+	"github.com/haraldLmueller/go-engine/effects"
+	"github.com/haraldLmueller/go-engine/engine"
+	"github.com/haraldLmueller/go-engine/glfwController"
+	"github.com/haraldLmueller/go-engine/opengl"
+	"github.com/haraldLmueller/go-engine/renderer"
+	"github.com/haraldLmueller/go-engine/ui"
 	"github.com/walesey/go-fileserver/client"
 )
 
@@ -28,7 +28,7 @@ func init() {
 	//Set default glfw controller
 	controller.SetDefaultConstructor(glfwController.NewActionMap)
 	// set working dir to access assets
-	p, _ := build.Import("github.com/walesey/go-engine", "", build.FindOnly)
+	p, _ := build.Import("github.com/haraldLmueller/go-engine", "", build.FindOnly)
 	os.Chdir(p.Dir)
 }
 
@@ -97,7 +97,7 @@ func main() {
 
 func fetchAssets(gameEngine engine.Engine, complete func()) {
 	os.Mkdir("TestAssets", 0777)
-	patcher := client.NewClient("TestAssets", "http://walesey.net")
+	patcher := client.NewClient("TestAssets", "http://haraldLmueller.net")
 	done := make(chan bool)
 	go func() {
 		patcher.SyncFiles("TestFiles")

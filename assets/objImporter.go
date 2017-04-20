@@ -10,7 +10,7 @@ import (
 
 	"image"
 
-	"github.com/walesey/go-engine/renderer"
+	"github.com/haraldLmueller/go-engine/renderer"
 )
 
 //vericies format : x,y,z,   nx,ny,nz,tx,ty,tz,btx,bty,btz,   u,v,  r,g,b,a

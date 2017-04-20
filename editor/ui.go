@@ -6,11 +6,11 @@ import (
 	"strings"
 
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/assets"
-	"github.com/walesey/go-engine/controller"
-	"github.com/walesey/go-engine/glfwController"
-	"github.com/walesey/go-engine/ui"
-	"github.com/walesey/go-engine/util"
+	"github.com/haraldLmueller/go-engine/assets"
+	"github.com/haraldLmueller/go-engine/controller"
+	"github.com/haraldLmueller/go-engine/glfwController"
+	"github.com/haraldLmueller/go-engine/ui"
+	"github.com/haraldLmueller/go-engine/util"
 )
 
 func (e *Editor) setupUI() {

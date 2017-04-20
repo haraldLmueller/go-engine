@@ -6,7 +6,7 @@ import (
 	"os"
 	"regexp"
 
-	"github.com/walesey/go-engine/shaderBuilder/parser"
+	"github.com/haraldLmueller/go-engine/shaderBuilder/parser"
 )
 
 func main() {

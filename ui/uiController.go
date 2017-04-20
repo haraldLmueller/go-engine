@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/controller"
+	"github.com/haraldLmueller/go-engine/controller"
 )
 
 func controlKey(key controller.Key) bool {

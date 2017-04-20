@@ -2,8 +2,8 @@ package actor
 
 import (
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/physics/physicsAPI"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/haraldLmueller/go-engine/physics/physicsAPI"
+	"github.com/haraldLmueller/go-engine/renderer"
 )
 
 type PhysicsActor2D struct {

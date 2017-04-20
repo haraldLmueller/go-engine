@@ -2,8 +2,8 @@ package assets
 
 import (
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/renderer"
-	"github.com/walesey/go-engine/util"
+	"github.com/haraldLmueller/go-engine/renderer"
+	"github.com/haraldLmueller/go-engine/util"
 )
 
 // IntersectGeometry - returns a list of line segments resulting from the xz plane intersection of the geometry

@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/glfwController"
-	"github.com/walesey/go-engine/ui"
+	"github.com/haraldLmueller/go-engine/glfwController"
+	"github.com/haraldLmueller/go-engine/ui"
 )
 
 const maxFileDisplayed = 37

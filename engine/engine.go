@@ -5,8 +5,8 @@ import (
 	"image/color"
 
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/renderer"
-	"github.com/walesey/go-engine/ui"
+	"github.com/haraldLmueller/go-engine/renderer"
+	"github.com/haraldLmueller/go-engine/ui"
 )
 
 type Engine interface {

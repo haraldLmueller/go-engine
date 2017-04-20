@@ -1,8 +1,8 @@
 package actor
 
 import (
-	"github.com/walesey/go-engine/physics/physicsAPI"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/haraldLmueller/go-engine/physics/physicsAPI"
+	"github.com/haraldLmueller/go-engine/renderer"
 )
 
 type PhysicsActor struct {

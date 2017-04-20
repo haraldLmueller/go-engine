@@ -4,7 +4,7 @@ import (
 	"github.com/go-gl/mathgl/mgl32"
 	"github.com/vova616/chipmunk"
 	"github.com/vova616/chipmunk/vect"
-	"github.com/walesey/go-engine/physics/physicsAPI"
+	"github.com/haraldLmueller/go-engine/physics/physicsAPI"
 )
 
 type ChipmonkSpace struct {

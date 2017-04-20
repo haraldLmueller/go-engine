@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/walesey/go-engine/editor/models"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/haraldLmueller/go-engine/editor/models"
+	"github.com/haraldLmueller/go-engine/renderer"
 )
 
 func LoadMap(path string) *editorModels.MapModel {

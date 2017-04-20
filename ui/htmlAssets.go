@@ -3,7 +3,7 @@ package ui
 import (
 	"image"
 
-	"github.com/walesey/go-engine/libs/freetype/truetype"
+	"github.com/haraldLmueller/go-engine/libs/freetype/truetype"
 )
 
 type HtmlAssets struct {

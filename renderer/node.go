@@ -5,7 +5,7 @@ import (
 	"sort"
 
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/util"
+	"github.com/haraldLmueller/go-engine/util"
 )
 
 type Transparency int

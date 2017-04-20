@@ -2,7 +2,7 @@ package ui
 
 import (
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/controller"
+	"github.com/haraldLmueller/go-engine/controller"
 )
 
 func ClickAndDragWindow(window *Window, hitbox Hitbox, c controller.Controller) {

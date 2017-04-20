@@ -1,12 +1,12 @@
 # GoEngine
 
-cloned from github.com/walesey/go-engine
+cloned from github.com/haraldLmueller/go-engine
 changed to gl v 3.2-core to be able to run on oder systems
 
 Go engine is a simple game engine intended for 2D or 3D games.
 This project is currently in progress and it is likely to change significantly over the next year or so.
 
-[![Build Status](https://travis-ci.org/walesey/go-engine.svg?branch=master)](https://travis-ci.org/walesey/go-engine)
+[![Build Status](https://travis-ci.org/haraldLmueller/go-engine.svg?branch=master)](https://travis-ci.org/haraldLmueller/go-engine)
 
 
 ## Features

@@ -4,7 +4,7 @@ import (
 	"image"
 	"sync"
 
-	"github.com/walesey/go-engine/renderer"
+	"github.com/haraldLmueller/go-engine/renderer"
 )
 
 type AssetCache struct {

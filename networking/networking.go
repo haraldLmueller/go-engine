@@ -3,8 +3,8 @@ package networking
 import (
 	"time"
 
-	"github.com/walesey/go-engine/emitter"
-	"github.com/walesey/go-engine/util"
+	"github.com/haraldLmueller/go-engine/emitter"
+	"github.com/haraldLmueller/go-engine/util"
 )
 
 type Network struct {
